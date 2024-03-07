@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int arr[5]={1,2,3,4,5};
+    int i;
+    //printf("the elements of array are");
+    //int i;
+    printf("the elements of array are:\n");
+    for(i=0;i<=4;i++){
+        printf("%d ",arr[i]);
+    }
+    return 0;
+}
